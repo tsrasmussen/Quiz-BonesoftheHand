@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quiz - Bones of the Wrist</string>
+    <string name="q1">Spørgsmål 1</string>
+    <string name="q10">Spørgsmål 10</string>
+    <string name="q2">Spørgsmål 2</string>
+    <string name="q3">Spørgsmål 3</string>
+    <string name="q4">Spørgsmål 4</string>
+    <string name="q5">Spørgsmål 5</string>
+    <string name="q6">Spørgsmål 6</string>
+    <string name="q7">Spørgsmål 7</string>
+    <string name="q8">Spørgsmål 8</string>
+    <string name="q9">Spørgsmål 9</string>
+    <string name="submit">Send Besvarelse</string>
+    <string name="which_bone">Hvilken knogle er markeret her?</string>
+    <string name="proximal">Hvilke knogler udgår den proksimale række af knogler i handledet?</string>
+    <string name="name">Navn</string>
+    <string name="intro">Dette er en quiz omhandlede knogler i håndledet. Hvad er dit navn?</string>
+    <string name="greeting">Hej og velkommen!</string>
+    <string name="distal">Hvilke knogler udgør den distale rækker af knogler i håndledet?</string>
+    <string name="bone">Knogle</string>
+</resources>

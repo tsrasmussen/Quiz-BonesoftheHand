@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/silvergradient"
+    android:padding="8dp"
+    tools:context="com.example.android.quiz_bonesofthehand.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/greeting" />
+
+        <TextView
+            style="@style/intro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/intro" />
+
+        <EditText
+            android:id="@+id/name_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/name"
+            android:inputType="textCapWords" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <View style="@style/ViewBarHorizontal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/question"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q1" />
+
+            <ImageView
+                style="@style/picture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/os_capitatum" />
+
+            <TextView
+                style="@style/question"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/which_bone" />
+
+            <RadioGroup
+                style="@style/radio_group"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RadioButton
+                    style="@style/radio_button"
+                    android:id="@+id/os_capitatum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/os_capitatum" />
+
+                <RadioButton
+                    style="@style/radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/os_trapezium"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    style="@style/radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/os_lunatum"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    style="@style/radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/os_hamatum"
+                    android:textSize="18sp" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <View style="@style/ViewBarHorizontal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/question"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q2" />
+
+            <ImageView
+                style="@style/picture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/os_pisiforme" />
+
+            <TextView
+                style="@style/question"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/which_bone" />
+
+            <RadioGroup
+                style="@style/radio_group"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RadioButton
+                    style="@style/radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/os_lunatum" />
+
+                <RadioButton
+                    style="@style/radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/os_triquetrum" />
+
+                <RadioButton
+                    style="@style/radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/os_trapezium" />
+
+                <RadioButton
+                    style="@style/radio_button"
+                    android:id="@+id/os_pisiforme"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/os_pisiforme" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <View style="@style/ViewBarHorizontal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/question"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q3" />
+
+            <ImageView
+                style="@style/picture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/os_lunatum" />
+
+            <TextView
+                style="@style/question"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/which_bone" />
+
+            <RadioGroup
+                style="@style/radio_group"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RadioButton
+                    style="@style/radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/os_trapezoideum" />
+
+                <RadioButton
+                    style="@style/radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/os_scaphoideum" />
+
+                <RadioButton
+                    style="@style/radio_button"
+                    android:id="@+id/os_lunatum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/os_lunatum" />
+
+                <RadioButton
+                    style="@style/radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/os_capitatum" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <View style="@style/ViewBarHorizontal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/question"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q4" />
+
+            <ImageView
+                style="@style/picture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/os_trapezoideum" />
+
+            <TextView
+                style="@style/question"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/which_bone" />
+
+            <RadioGroup
+                style="@style/radio_group"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RadioButton
+                    style="@style/radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/os_hamatum" />
+
+                <RadioButton
+                    style="@style/radio_button"
+                    android:id="@+id/os_trapezoideum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/os_trapezoideum" />
+
+                <RadioButton
+                    style="@style/radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/os_capitatum" />
+
+                <RadioButton
+                    style="@style/radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/os_pisiforme" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <View style="@style/ViewBarHorizontal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/question"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q5" />
+
+            <TextView
+                style="@style/question"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/distal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        style="@style/checkbox"
+                        android:id="@+id/check2_trapezoideum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/os_trapezoideum" />
+
+                    <CheckBox
+                        style="@style/checkbox"
+                        android:id="@+id/check2_pisiforme"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/os_pisiforme" />
+
+                    <CheckBox
+                        style="@style/checkbox"
+                        android:id="@+id/check2_triquetrum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/os_triquetrum" />
+
+                    <CheckBox
+                        style="@style/checkbox"
+                        android:id="@+id/check2_lunatum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/os_lunatum" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        style="@style/checkbox"
+                        android:id="@+id/check2_capitatum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/os_capitatum" />
+
+                    <CheckBox
+                        style="@style/checkbox"
+                        android:id="@+id/check2_trapezium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/os_trapezium" />
+
+                    <CheckBox
+                        style="@style/checkbox"
+                        android:id="@+id/check2_scaphoideum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/os_scaphoideum" />
+
+                    <CheckBox
+                        style="@style/checkbox"
+                        android:id="@+id/check2_hamatum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/os_hamatum" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View style="@style/ViewBarHorizontal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/question"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q6" />
+
+            <ImageView
+                style="@style/picture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/os_trapezium" />
+
+            <TextView
+                style="@style/question"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/which_bone" />
+
+            <EditText
+                android:id="@+id/os_trapezium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/bone"
+                android:inputType="textCapWords" />
+
+        </LinearLayout>
+
+        <View style="@style/ViewBarHorizontal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/question"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q7" />
+
+            <ImageView
+                style="@style/picture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/os_scaphoideum" />
+
+            <TextView
+                style="@style/question"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/which_bone" />
+
+            <EditText
+                android:id="@+id/os_scaphoideum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/bone"
+                android:inputType="textCapWords" />
+
+        </LinearLayout>
+
+        <View style="@style/ViewBarHorizontal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/question"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q8" />
+
+            <ImageView
+                style="@style/picture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/os_triquetrum" />
+
+            <TextView
+                style="@style/question"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/which_bone" />
+
+            <EditText
+                android:id="@+id/os_triquetrum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/bone"
+                android:inputType="textCapWords" />
+
+        </LinearLayout>
+
+        <View style="@style/ViewBarHorizontal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/question"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q9" />
+
+            <ImageView
+                style="@style/picture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/os_hamatum" />
+
+            <TextView
+                style="@style/question"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/which_bone" />
+
+            <EditText
+                android:id="@+id/os_hamatum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/bone"
+                android:inputType="textCapWords" />
+
+        </LinearLayout>
+
+        <View style="@style/ViewBarHorizontal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/question"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q10" />
+
+            <TextView
+                style="@style/question"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/proximal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        style="@style/checkbox"
+                        android:id="@+id/check1_capitatum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/os_capitatum" />
+
+                    <CheckBox
+                        style="@style/checkbox"
+                        android:id="@+id/check1_pisiforme"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/os_pisiforme" />
+
+                    <CheckBox
+                        style="@style/checkbox"
+                        android:id="@+id/check1_lunatum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/os_lunatum" />
+
+                    <CheckBox
+                        style="@style/checkbox"
+                        android:id="@+id/check1_hamatum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/os_hamatum" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        style="@style/checkbox"
+                        android:id="@+id/check1_triquetrum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/os_triquetrum" />
+
+                    <CheckBox
+                        style="@style/checkbox"
+                        android:id="@+id/check1_scaphoideum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/os_scaphoideum" />
+
+                    <CheckBox
+                        style="@style/checkbox"
+                        android:id="@+id/check1_trapezium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/os_trapezium" />
+
+                    <CheckBox
+                        style="@style/checkbox"
+                        android:id="@+id/check1_trapezoideum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/os_trapezoideum" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            style="@style/submit_button"
+            android:text="@string/submit"
+            android:id="@+id/submit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="submitAnswers"/>
+
+    </LinearLayout>
+
+</ScrollView>

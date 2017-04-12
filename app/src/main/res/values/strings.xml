@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Quiz - Bones of the Wrist</string>
+    <string name="greeting">Hello and welcome!</string>
+    <string name="intro">This is a quiz about the bones of the wrist.\nWhat is your name?</string>
+    <string name="name">Name</string>
+    <string name="which_bone">Which bone is highlighted here?</string>
+    <string name="os_capitatum" translatable="false">Os Capitatum</string>
+    <string name="os_hamatum" translatable="false">Os Hamatum</string>
+    <string name="os_lunatum" translatable="false">Os Lunatum</string>
+    <string name="os_pisiforme" translatable="false">Os Pisiforme</string>
+    <string name="os_scaphoideum" translatable="false">Os Scaphoideum</string>
+    <string name="os_trapezium" translatable="false">Os Trapezium</string>
+    <string name="os_trapezoideum" translatable="false">Os Trapezoideum</string>
+    <string name="os_triquetrum" translatable="false">Os Triquetum</string>
+    <string name="ossa_metacarpalia" translatable="false">Ossa Metacarpalia</string>
+    <string name="phalanges_distales" translatable="false">Phalanges Distales</string>
+    <string name="phalanges_mediae" translatable="false">Phalanges Mediae</string>
+    <string name="phalanges_proximales" translatable="false">Phalanges Proximales</string>
+    <string name="bone">Bone</string>
+    <string name="proximal">Which bones make up the proximal row of bones in the wrist?</string>
+    <string name="distal">Which bones make up the distal row of bones in the wrist?</string>
+    <string name="q1">Question 1</string>
+    <string name="q2">Question 2</string>
+    <string name="q3">Question 3</string>
+    <string name="q4">Question 4</string>
+    <string name="q5">Question 5</string>
+    <string name="q6">Question 6</string>
+    <string name="q7">Question 7</string>
+    <string name="q8">Question 8</string>
+    <string name="q9">Question 9</string>
+    <string name="q10">Question 10</string>
+    <string name="submit">Submit Answers</string>
+
+
+</resources>
